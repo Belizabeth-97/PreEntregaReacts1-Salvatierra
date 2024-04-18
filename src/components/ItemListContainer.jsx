@@ -1,7 +1,11 @@
 
-function ItemListContainer() {
+function ItemListContainer(props) {
   return (
-   <h1>Productos</h1>
+   <div className="Card">
+      <img src="/Hamburguesa-fondo-negro"></img>
+      <h3>Doble pepinillo</h3>
+      <button>Agregar</button>
+   </div>
   )
 }
 
